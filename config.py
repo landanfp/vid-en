@@ -10,5 +10,6 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", "763990585")
     SUDO_USERS = os.environ.get("SUDO_USERS","")
     MONGO_DB = os.environ.get("MONGO_DB", "mongodb+srv://abirhasan2005:abirhasan@cluster0.i6qzp.mongodb.net/cluster0?retryWrites=true&w=majority")
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL, "-1001792962793")
-     = os.environ.get(", "")                             
+    MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://abirhasan2005:abirhasan@cluster0.i6qzp.mongodb.net/cluster0?retryWrites=true&w=majority")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001792962793")
+    EVERYONE_CHATS = os.environ.get("EVERYONE_CHATS", "-1001792962793")                             
